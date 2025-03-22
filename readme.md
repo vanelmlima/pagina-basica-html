@@ -1,7 +1,11 @@
-# Página básica com html
+# Meus resumos no Front-end
 
-a
+Esse repositório é um experimento como minha resolução de um desafio de projeto. O repositório de referência está no final desse README.
 
-## Referência
+## Objetivo
+
+Guardar resumos para revisão de algumas tags básicas do html. Usando as próprias tags como exemplo, a ideia é juntar teoria e prática numa mesma página.
+
+## Referência do desafio
 
 <https://github.com/digitalinnovationone/trilha-html-modulo-1>
