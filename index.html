@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resumos no Front-end</title>
+
+    <style>
+        #style-example {
+          font-size: 18px;
+          color: red;
+        }
+    </style>
 </head>
 <body>
     <h1 class="title">Começando no HTML</h1>
     <p>Um resumo para revisar o básico do html</p>
     <hr>
+
     <h2>O que é o HTML?</h2>
     <p>O <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de marcação baseada em hipertexto.</p>
 
@@ -53,22 +61,30 @@
     <p>Indica um texto com forte importância (fica em negrito). Exemplo: <strong>texto importante</strong>.</p>
 
     <h3>Listas</h3>
-    <h4>Tag ol</h4>
-    <p></p>
-
-    <h4>Tag ul</h4>
-    <p></p>
-
-    <h4>Tag li</h4>
-    <p></p>
-
+    <h4>Tags ol, ul e li</h4>
+    <p>A tag <strong>ol</strong> cria uma lista ordenada (com números).</p>
+    <p>A tag <strong>ul</strong> cria uma lista não ordenada (com marcadores).</p>
+    <p>A tag <strong>li</strong> define um item dentro de uma lista. Exemplos:</p>
+    <ol>Lista ordenada
+        <li>item da lista</li>
+    </ol>
+    <ul>Lista não ordenada
+        <li>item da lista</li>
+    </ul>
+ 
     <h3>Links e separação</h3>
     <h4>Tag a</h4>
+    <p>Cria um link para outra página ou recurso. Exemplo: <a href="https://github.com/vanelmlima">Confira meu perfil no github</a>.</p>
     <h4>Tag hr</h4>
+    <p>Insere uma linha horizontal para separar conteúdos. Exemplo a seguir:</p>
+    <hr>
 
     <h3>Subscrito e sobrescrito</h3>
     <h4>Tag sub</h4>
+    <p>Deixa o texto em subscrito (usado para fórmulas químicas, por exemplo). Exemplos: <sub>texto subscrito</sub>; H<sub>2</sub>SO<sub>4</sub> (ácido sulfúrico).</p>
+
     <h4>Tag sup</h4>
+    <p>Deixa o texto em sobrescrito (usado para expoentes). Exemplos: <sup>texto sobrescrito</sup>; 2<sup>11</sup>= 2048.</p>
 
     <h3>Citações blockquote</h3>
     <p>Indica um bloco de citação, geralmente exibido com recuo. Exemplo:</p>
@@ -77,10 +93,10 @@
     </blockquote>
     
     <h3>Outas tags</h3>
-    <small>A tag 'font' está obsoleta no html5, em vez dela usamos a tag style para aplicar os estilos <i>in line</i>, mas o mais recomendado é manter os estilos num arquivo <abbr title="Cascading Stlyle Sheet">css</abbr> separado e referenciá-lo com a tag <strong>style</strong> dentro da tag <stong>head</stong>.</small>
-
-    <h4>Tag style</h4>
-    <p></p>
+    <small>A tag 'font' está obsoleta no html5, em vez dela usamos o atributo <i>style</i> para aplicar os estilos <i>inline</i>, mas o mais recomendado é manter os estilos num <mark>arquivo <abbr title="Cascading Stlyle Sheet">css</abbr> separado</mark> e referenciá-lo com a tag <strong>link</strong> dentro da tag <stong>head</stong>.</small>
+    <p>Exemplos:</p>
+    <p style="font-family: 'Courier New', Courier, monospace;">Texto com estilo modificado <i>inline</i> através do atributo <strong>style</strong> no parágrafo.</p>
+    <p id="style-example">Texto com estilo modificado através do css dentro do html</p>
 
     <h4>Tag del</h4>
     <p>Texto riscado/removido. Exemplo: <del>usado para indicar que o trecho foi removido</del></p>
