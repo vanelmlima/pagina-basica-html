@@ -8,7 +8,7 @@ Guardar resumos para revisão de algumas tags básicas do html. Usando as própr
 
 ## Resultado
 
-Confira o deplou da página em: <https://vanelmlima.github.io/pagina-basica-html/>
+Confira o deploy da página em: <https://vanelmlima.github.io/pagina-basica-html/>
 
 ## Referência do desafio
 
